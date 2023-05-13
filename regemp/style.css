@@ -1,0 +1,116 @@
+body {
+    background-color: #eaeae8;
+    font-family: Helvetica;
+}
+
+.form-container {
+    position: absolute;top:70;right:280;
+    background-color: #eaeae8;
+    padding: 30px;
+}
+
+
+
+input {
+    background-color: #373737;
+    padding: 0px 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 22px;
+    color: #eaeae8;
+}
+
+select {
+    background-color: #373737;
+    padding: 0px 16px;
+    width: 344px;
+    height: 50px;
+    font-size: 22px;
+    color: #eaeae8;
+}
+
+
+.btn1 {
+    font-family: Helvetica;
+    font-weight: 500;
+    border-radius: 4px;
+      background-color: #373737;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 22px;
+      padding: 20px;
+      width: 344px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 0px;
+    position:absolute;top:250;left:40;
+}
+
+.btn2 {
+    font-family: Helvetica;
+    font-weight: 500;
+    border-radius: 4px;
+      background-color: #373737;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 22px;
+      padding: 20px;
+      width: 344px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 0px;
+    position:absolute;top:250;left:40;
+}
+
+.btn1 span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.btn1 span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.btn1:hover span {
+padding-right: 25px;
+}
+
+.btn1:hover span:after {
+opacity: 1;
+right: 0;
+
+}
+.btn2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+    
+    .btn2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+    
+    .btn2:hover span {
+    padding-right: 25px;
+    }
+    
+    .btn2:hover span:after {
+    opacity: 1;
+    right: 0;
+    
+    }

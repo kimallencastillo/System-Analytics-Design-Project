@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<div class="login-box">
+  <h1>Staff Login</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h5 align=left><i>Staff Registry Sucessful</i></h5>
+  <div class="textbox">
+    <form method="POST" action="stafflogin.php">
+    <i class="fas fa-user"></i>
+    <input type="text" name="userstaff" placeholder="Username">
+  </div>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" name="passstaff" placeholder="Password">
+    
+  </div>
+  
+  <input type="submit" class="btn" name="login" value="Sign in">
+  <input type="button" class="btn" onclick = goback() value="Register">
+  <input type="button" class="btn" onclick = choice() value="Homepage">
+</form>
+</div>
+  </body>
+  <script>
+    function goback(){
+        location.replace("regstaff/index.php")
+    }
+
+    function choice(){
+        location.replace("Homepage.html")
+    }
+
+</script>
+</html>

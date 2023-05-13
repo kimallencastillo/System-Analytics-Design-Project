@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<div class="login-box">
+  <h1>Applicant Login</h1>
+  <div class="textbox">
+    <form method="POST" action="applogin.php">
+    <i class="fas fa-user"></i>
+    <input type="text" name="userapp" placeholder="Username">
+  </div>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" name="passapp" placeholder="Password">
+    
+  </div>
+  
+  <input type="submit" class="btn" name="login" value="Sign in">
+  <input type="button" class="btn" onclick = regfunc() value="Register">
+  <input type="button" class="btn" onclick = choice() value="Homepage">
+</form>
+</div>
+  </body>
+  <script>
+    function regfunc(){
+        location.replace("regapp/index.php")
+    }
+    function choice(){
+        location.replace("Homepage.html")
+    }
+
+
+</script>
